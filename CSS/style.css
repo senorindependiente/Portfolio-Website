@@ -83,7 +83,7 @@ h2 {
 }
 
 .profile {
-  height: 60vh;
+  height: vh;
   display: flex;
   font-family: var(--secondary-font);
   color: var(--third-color);
@@ -101,8 +101,6 @@ h2 {
   margin-right: 5rem;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
-
-
 
 @media all and (max-width: 750px) {
   .profile {
@@ -134,7 +132,7 @@ h2 {
 }
 
 .page-footer {
-  margin-top: 8rem;
+  
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -402,7 +400,7 @@ section h1 {
 }
 
 .contact-info {
-  padding: 2rem 1rem;
+  padding: 2rem;
   background-color: var(--secondary-color);
   line-height: 2rem;
   height: 50vh;
@@ -416,6 +414,7 @@ section h1 {
 
 .contact-info a {
   color: var(--primary-color);
+  font-size: 0.8rem;
 }
 
 .contact-form {
@@ -438,7 +437,6 @@ textarea {
   border-radius: 10px;
   margin: 0.5rem 0rem;
   padding: 0.5rem;
-
 }
 
 input[type="submit"] {
