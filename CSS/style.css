@@ -47,7 +47,8 @@ body {
 
 .navigation-list li {
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 
 #logo {
@@ -174,6 +175,7 @@ input[type="submit"]:hover {
 
 button,
 .button {
+  margin: 3rem 0rem;
   color: var(--secondary-color);
   background: var(--button-color);
   font-family: var(--main-font);
@@ -204,6 +206,7 @@ button:focus,
 }
 
 .profile {
+  height: 65vh;
   display: flex;
   font-family: var(--secondary-font);
   max-width: 800px;
@@ -227,13 +230,13 @@ button:focus,
     max-width: 500px;
   }
 
-.profile__portrait{
-  max-height: 20%;
-}
+  .profile__portrait {
+    max-height: 20%;
+  }
 
-.profile h1{
-  max-width: 40%;
-}
+  .profile h1 {
+    max-width: 40%;
+  }
 }
 
 .profile h1 {
@@ -376,13 +379,10 @@ section h1 {
 .about-content p {
   padding: 1rem 0rem;
   font-size: 1rem;
-
-  
 }
 
 @media all and (max-width: 950px) {
   .about-container {
-    
     flex-direction: column;
   }
 }
