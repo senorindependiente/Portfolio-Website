@@ -82,7 +82,6 @@ h2 {
 }
 
 .profile {
-  height: vh;
   display: flex;
   font-family: var(--secondary-font);
   color: var(--third-color);
