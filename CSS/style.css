@@ -132,7 +132,6 @@ h2 {
 }
 
 .page-footer {
-  
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -293,7 +292,7 @@ section h1 {
   font-size: 6rem;
   font-weight: 800;
   letter-spacing: -0.1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .grid {
@@ -309,7 +308,6 @@ section h1 {
   padding: 1rem 2rem;
   border-radius: 10px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-  background-color: var(--p4-color);
 }
 
 .grid__item h2 {
@@ -377,7 +375,6 @@ section h1 {
 }
 
 .contact-content {
-  
   margin: 5rem 5rem;
   line-height: 1.2rem;
   display: flex;
@@ -394,17 +391,12 @@ section h1 {
     font-size: 0.5rem;
     flex-direction: column;
   }
-
-
 }
 
 @media all and (max-width: 500px) {
   .contact-content {
     font-size: 0.2rem;
-  
   }
-
-  
 }
 
 @media all and (max-width: 1000px) {
@@ -414,7 +406,7 @@ section h1 {
 }
 
 .contact-info {
-  padding:1rem;
+  padding: 2.5rem 1rem;
   background-color: var(--secondary-color);
   line-height: 2rem;
   width: 30%;
@@ -423,15 +415,11 @@ section h1 {
   border: 2px solid var(--primary-color);
   border-radius: 10px;
   color: var(--primary-color);
-  
 }
-
-
 
 .contact-info a {
   color: var(--primary-color);
-  font-size:0.7rem;
-  
+  font-size: 0.7rem;
 }
 
 .contact-form {
