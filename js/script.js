@@ -1,4 +1,4 @@
-//function to validate E-Mail and phone
+//created IIFE function to validate E-Mail and phone
 
 (function () {
     let form = document.querySelector(".contact-form");
